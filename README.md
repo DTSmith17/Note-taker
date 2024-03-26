@@ -1,19 +1,60 @@
 # Note Taker
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
 
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+## Description
 
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
+This Note Taker application provides a simple and efficient way to take and manage your notes. It offers a user-friendly interface where you can create, save, and view your notes seamlessly.
 
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
+## Usage
 
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
+Landing Page
 
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
+- When you open the Note Taker, you will be presented with a landing page featuring a link to the notes page.
+
+    ![landing page](<images/Screenshot 2024-03-26 075121.png>)
+
+Notes Page
+
+- Clicking on the link to the notes page leads you to a page with existing notes listed in the left-hand column.
+- You'll find empty fields on the right-hand column to enter a new note title and the note’s text.
+
+    ![Existing notes and input for new note](<images/Screenshot 2024-03-26 075339.png>)
+
+Creating a New Note
+
+- Enter a new note title and its text.
+- Upon doing so, a "Save Note" button and a "Clear Form" button will appear in the navigation at the top of the page.
+
+    ![Creating new note](<images/Screenshot 2024-03-26 075559.png>)
+
+Saving the Note
+
+- Click on the "Save Note" button to save the new note you've entered.
+- The saved note will appear in the left-hand column alongside other existing notes, and the buttons in the navigation will disappear.
+
+    ![Saving a note](<images/Screenshot 2024-03-26 075739.png>)
+
+Viewing an Existing Note
+
+- Click on an existing note in the list on the left-hand column.
+- The selected note will appear in the right-hand column, and a "New Note" button will appear in the navigation.
+
+    ![alt text](<images/Screenshot 2024-03-26 075850.png>)
+
+Starting a New Note
+
+- Click on the "New Note" button in the navigation at the top of the page to start a new note.
+- This action will present you with empty fields to enter a new note title and the note’s text in the right-hand column, and the "New Note" button will disappear.
+
+## Technologies Used
+
+HTML
+CSS
+JavaScript
+
+## How to Run
+
+from the command line enter
+
+    ~ node server.js
+
+then navigate to http://localhost:3001 in the browser.

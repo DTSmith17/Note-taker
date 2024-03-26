@@ -1,10 +1,17 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "id": "3766a11a-b5e7-470c-aeb9-2f442e1a85f3",
+        "title": "Shopping",
+        "text": "Got to mall\n"
     },
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "id": "8e510623-1683-4db8-a045-b8a61823ae25",
+        "title": "Grocery list",
+        "text": "Apples"
+    },
+    {
+        "id": "f7606d45-070e-4580-b9eb-4eefeb028772",
+        "title": "Pick up kids from school",
+        "text": "Pickup time 3:30pm"
     }
 ]
